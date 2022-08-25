@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+.logo-image {
+  width: 15rem;
+}
+
+.header .nav-link-item {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-link-text {
+  text-decoration: none;
+  padding: 0.7rem 1.3rem;
+  color: #555;
+  transition: all 0.3s ease 0s;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 30px;
+}
+
+.header .nav-link-text:hover {
+  color: #b2dfdb;
+}
+
+
+.contact-us-button .nav-link-text {
+  background: #2ECC71;
+  border-radius: 46px;
+  color: #fff;
+}

@@ -1,0 +1,47 @@
+.hero-background {
+  position: fixed;
+  width: 60rem;
+  height: 60rem;
+  left: 60rem;
+  top: -15rem;
+  z-index: -1;
+
+  background: #0189D8;
+  opacity: 0.05;
+  border-radius: 200px;
+  transform: rotate(30deg);
+}
+
+.hero-container {
+  padding: 15rem 1.5rem;
+}
+
+.hero-text {
+  max-width: 25%;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 120%;
+  color: #313131;
+}
+
+.sub-text {
+  margin: 2rem 0;
+  font-size: 1.8rem;
+  line-height: 42px;
+  color: #313131;
+  opacity: 0.5;
+  max-width: 50%;
+}
+
+.contact-link {
+  margin: 3.5rem 0;
+}
+
+.contact-link a {
+  background: #2ECC71;
+  border-radius: 46px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.3rem 3.8rem;
+}
