@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_blog=self.webpackChunkgatsby_blog||[]).push([[678],{6558:function(e,t,n){n.r(t),n.d(t,{Head:function(){return c}});var a=n(7294),u=n(2895),l=n(9357),r=n(7516),c=function(){return a.createElement(l.Z,{title:"Hoomans"})};t.default=function(){return a.createElement(u.Z,{pageTitle:"Hoomans"},a.createElement(r.Z,null))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-558ade6eed94d17616a1.js.map
