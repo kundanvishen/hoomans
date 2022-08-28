@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_blog=self.webpackChunkgatsby_blog||[]).push([[682],{4633:function(e,t,n){n.r(t),n.d(t,{Head:function(){return l}});var a=n(7294),u=n(2895),r=n(9357),l=function(){return a.createElement(r.Z,{title:"About Us"})};t.default=function(){return a.createElement(u.Z,{pageTitle:"About Us"},a.createElement("p",null,"Hi, we are Hoomans, and we create awesome things!"))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-e6e02b90a17a16aed815.js.map
