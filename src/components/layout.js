@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Navbar from './navbar'
-import Hero from './hero'
+import Footer from './footer'
 
 import { 
   container,
@@ -19,15 +19,22 @@ const Layout = ({ pageTitle, children }) => {
     }
   `)
 
+  const title = (pageTitle === 'Hoomans') ? pageTitle: `${pageTitle} | ${data.site.siteMetadata.title}`
+
   return (
     <div className={container}>
-      <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+      {console.log(title)}
+      <title>
+        {title}
+      </title>
       {/* <header className={siteTitle}>{data.site.siteMetadata.title}</header> */}
       <Navbar />
       <main>
         {/* <h1 className={heading}>{pageTitle}</h1> */}
         {children}
       </main>
+      <Footer />
+
     </div>
   )
 }

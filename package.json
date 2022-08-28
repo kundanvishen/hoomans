@@ -1,14 +1,15 @@
 {
-  "name": "gatsby_blog",
+  "name": "Hoomans",
   "version": "1.0.0",
   "private": true,
-  "description": "gatsby_blog",
+  "description": "Hoomans Website",
   "author": "Kundan Singh",
   "keywords": [
+    "Hoomans",
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
     "build": "gatsby build",
     "build:gh": "gatsby build && rsync -av --delete public/ docs",
