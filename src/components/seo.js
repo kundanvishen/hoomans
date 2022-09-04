@@ -12,8 +12,9 @@ const Seo = ({ title }) => {
     }
   `)
 
+  const pageTitle = (title === 'Hoomans') ? title : `${title} - ${data.site.siteMetadata.title}`
   return (
-    <title>{title} | {data.site.siteMetadata.title}</title>
+    <title>{pageTitle}</title>
   )
 }
 

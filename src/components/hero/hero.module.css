@@ -1,8 +1,9 @@
 .hero-background {
-  position: fixed;
+  position: absolute;
   width: 60rem;
   height: 60rem;
-  left: 60rem;
+  top: 0;
+  right: 0;
   top: -15rem;
   z-index: -1;
 
@@ -13,9 +14,10 @@
 }
 
 .hero-container {
-  margin: 5rem auto;
+  margin: 8rem auto;
   padding: 1rem 2rem;
   overflow: hidden;
+  /* position: relative; */
 }
 
 .hero-text {
@@ -50,9 +52,9 @@
   border-radius: 46px;
   color: #fff;
   text-decoration: none;
-  font-size: 1.4rem;
-  padding: 1.3rem 3.8rem;
-  box-shadow: 0px 20px 50px -15px #2ECC71;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  /* box-shadow: 0px 20px 50px -15px #2ECC71; */
 }
 
 
@@ -106,13 +108,33 @@
 
 
 @media (min-width: 850px) {
+  .hero-background {
+    position: absolute;
+    /* top: -9rem;
+right: -15rem;
+height: 70rem;
+width: 70rem; */
+
+    top: -3rem;
+    right: -12rem;
+    height: 100%;
+    width: 60%;
+  }
+
   .hero-container {
-    margin: 10rem auto;
-    padding: 1rem 7rem;
+    /* margin: 10rem auto; */
+    /* padding: 1rem 7rem; */
+    padding: 10rem;
+    margin: 0;
+    height: 100vh;
+    background: url("../../images/icons/rectangle.svg") right 28% no-repeat, url("../../images/icons/hero-bg.svg") right 28% no-repeat;
+    background-position: 100% 25%, right 32%;
+    background-size: 55%, 43%;
   }
 
   .hero-text {
     font-size: 5rem;
+    padding-top: 5rem;
   }
 
   .sub-text {
@@ -121,6 +143,10 @@
     max-width: 40%;
   }
 
+  .contact-link a {
+    font-size: 1.4rem;
+    padding: 1.3rem 3.8rem;
+  }
 
 
   .corners {

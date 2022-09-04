@@ -32,9 +32,9 @@ const Hero = () => {
         From thoughts and inception to delivery and beyond.
       </div>
       <div className={contactLink}>
-        <Link to="/contact">Get Started</Link>
+        <Link to="/contact">Contact Us</Link>
       </div>
-      <div className={heroBackground}></div>
+      {/* <div className={heroBackground}></div> */}
     </div>
   )
 }
