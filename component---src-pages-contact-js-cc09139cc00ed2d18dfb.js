@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkHoomans=self.webpackChunkHoomans||[]).push([[501],{5791:function(e,t,n){n.r(t),n.d(t,{Head:function(){return r}});var a=n(7294),c=n(6456),o=n(9357),r=function(){return a.createElement(o.Z,{title:"Contact Us"})};t.default=function(){return a.createElement(c.Z,{pageTitle:"Contact Us"},a.createElement("p",null,"Reach us at ",a.createElement("a",{href:"mailto:team@hoomans.tech"},"team@hoomans.tech"),"!"))}}}]);
-//# sourceMappingURL=component---src-pages-contact-js-cc09139cc00ed2d18dfb.js.map
