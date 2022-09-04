@@ -135,9 +135,9 @@ width: 70rem; */
     display: block;
     padding: 10rem;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     background: url("../../images/icons/rectangle.svg") right 28% no-repeat, url("../../images/icons/hero-bg.svg") right 28% no-repeat;
-    background-position: 100% 25%, right 32%;
+    background-position: 100% 0%, 100% 15rem;
     background-size: 55%, 43%;
   }
 
