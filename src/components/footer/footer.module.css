@@ -1,10 +1,118 @@
+.footer-container * {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+
 .footer-container {
   background-color: var(--dark-gray);
   color: var(--white);
   font-size: 0.9rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 5rem 2rem;
+  align-items: flex-start;
+
 
   /* padding: 0 1rem 3rem 1rem; */
 }
+
+.right,
+.left {
+  /* width: 50%; */
+  flex-basis: 50%;
+  min-height: 10rem;
+  display: flex;
+  flex-flow: row wrap;
+
+  align-content: center;
+  /* align-items: center; */
+
+
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 22px;
+}
+
+.left {}
+
+.logo-container {
+  flex-basis: 70%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #aaaaaa;
+
+}
+
+.links-container,
+.contacts-info,
+.social-links {
+  flex-basis: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 0 0 2rem;
+  gap: 1.3rem;
+}
+
+
+.links-container> :first-child,
+.social-links> :first-child,
+.contacts-info> :first-child {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+
+.links-container>div a,
+.social-links>div a,
+.contacts-info>div a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.social-links {
+  flex-basis: 40%;
+  justify-content: flex-start;
+  padding: 0 0 0 7rem;
+  /* flex-direction: row; */
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+@media (max-width: 1200px) and (min-width: 640px) {
+  .right {
+    flex-basis: 35%;
+  }
+
+  .left {
+    flex-basis: 65%;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .right,
+  .left {
+    flex-basis: 100%;
+  }
+}
+
+
 
 .row {
   display: flex;
@@ -48,7 +156,7 @@
 }
 
 .icon {
-  padding: 0 1em;
+  padding: 0 1em 0 0;
   vertical-align: middle;
 }
 
@@ -78,3 +186,8 @@ footer ul {
     font-size: 1.2rem;
   }
 }
+
+
+/* ********* OLD CSS************* */
+
+.footer-container {}

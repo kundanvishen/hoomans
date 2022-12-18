@@ -1,0 +1,39 @@
+.page-styles {
+  display: "flex";
+  color: "#232129";
+  padding-top: "96px";
+}
+
+.col {
+  flex: "1";
+  margin: "1rem 1.5rem 1rem";
+}
+
+.contact-card {
+  border: '1px solid red';
+  padding: '5rem 1rem 1rem 8rem';
+  font-weight: '600';
+  color: var(--dark-gray);
+
+  display: 'flex';
+  flex-direction: 'column';
+  justify-content: 'space-evenly';
+  align-items: 'flex-start';
+}
+
+.sub-heading {
+  font-size: '2rem';
+}
+
+.green-text {
+  color: var(--green);
+}
+
+.icon {
+  padding: "0 1em";
+  vertical-align: "middle";
+}
+
+.paragraphStyles {
+  margin-bottom: 48;
+}
