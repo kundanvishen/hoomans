@@ -82,3 +82,44 @@
 .green-text {
   color: var(--green)
 }
+
+@media (max-width: 640px) {
+  .container {
+    height: 15rem;
+  }
+
+  .card {
+    width: 90%;
+    padding: 2rem;
+    height: auto;
+    margin: -10rem 0px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #333333;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+
+  .button {
+    width: auto;
+    padding: 1rem;
+  }
+}
+
+
+@media (min-width: 640px) and (max-width: 1200px) {
+  .card {
+    padding: 3rem;
+    gap: 2rem;
+    width: 85%;
+  }
+}

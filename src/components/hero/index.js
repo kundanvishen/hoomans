@@ -15,6 +15,7 @@ import {
   bottom,
   rectangle,
   heroImage,
+  breakWord,
   servicesContainer,
   servicesHeading
 } from './hero.module.css'
@@ -30,14 +31,14 @@ const Hero = () => {
           <div className={`${bottom} ${left}`}></div>
           Crafted
         </div>
-        <div>
+        <div className={breakWord}>
           Digital Experiences
         </div>
         <div className={subText}>
           From thoughts and inception to delivery and beyond.
         </div>
         <div className={contactLink}>
-          <Link to="/contact">Get Started &nbsp;&nbsp; <RightArrowIcon /></Link>
+          <Link to="/contact">GET STARTED &nbsp;&nbsp; <RightArrowIcon /></Link>
         </div>
       </div>
       <div className={heroBackground}>

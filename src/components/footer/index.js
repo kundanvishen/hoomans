@@ -41,7 +41,7 @@ const Footer = () => {
           {/* <div>Blogs</div> */}
           {/* <div>Projects</div> */}
           <div>Services</div>
-          <div><Link to="/">Careers</Link></div>
+          <div><Link to="/careers">Careers</Link></div>
           <div><Link to="/contact">Contact Us</Link></div>
 
         </div>
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
           <div>
             <span className={icon}><PinIcon /></span>
-            Located in Dubai & Delhi
+            Dubai & Delhi
           </div>
         </div>
         <div className={socialLinks}>

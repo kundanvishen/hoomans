@@ -5,6 +5,9 @@ header {
 
 nav {
   padding: 1rem;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 1.25rem 8rem;
 }
 
 nav ul {
@@ -19,14 +22,17 @@ nav ul {
 }
 
 nav li:first-child {
-  flex-basis: 100%;
   text-align: center;
+  flex-basis: auto;
+  text-align: left;
+  margin-right: auto;
 }
 
 nav a {
   color: var(--gray);
   text-decoration: none;
   display: block;
+  font-size: 1.25rem;
 }
 
 .logo-image {
@@ -45,23 +51,7 @@ nav a {
   background-color: var(--hotmag);
 }
 
-@media (min-width: 850px) {
-  nav {
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 2rem 10rem;
-  }
-
-  nav a {
-    font-size: 1.25rem;
-  }
-
-  nav li:first-child {
-    flex-basis: auto;
-    text-align: left;
-    margin-right: auto;
-  }
-}
+@media (min-width: 850px) {}
 
 
 

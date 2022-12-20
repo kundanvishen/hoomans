@@ -46,10 +46,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  padding: 1.6rem;
   gap: 2rem;
   width: 23rem;
-  height: 33rem;
+  height: 35rem;
 
   background: var(--white);
   border: 1.5px solid #F5F5F5;
@@ -71,4 +71,25 @@
   font-weight: 300;
   line-height: 160%;
   text-align: center;
+}
+
+
+@media (max-width: 640px) {
+  .services-heading {
+    font-size: 1.5rem;
+  }
+
+  .services-label,
+  .banner-heading {
+    font-size: 1.25rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+  }
+
+  .service-banner {
+    width: 90%;
+    height: auto;
+  }
 }

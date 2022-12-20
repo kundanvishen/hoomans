@@ -80,7 +80,7 @@ const Services = () => {
               Cyber Security
             </div>
             <div className={bannerDescription}>
-              Stop spending hours combing the internet for design inspiration. Use hoomans to find your next design idea. We're a library of over 3 million hi-res images, vectors, fonts, and more. All ready to be used, remixed, and shared with others!
+              We provide a range of cybersecurity services to help protect businesses and organizations from online threats. These services include network security assessments, penetration testing, security incident response, and security awareness training for employees.
             </div>
           </div>
           <div className={serviceBanner}>
@@ -91,7 +91,7 @@ const Services = () => {
               Staffing Solutions
             </div>
             <div className={bannerDescription}>
-              Stop spending hours combing the internet for design inspiration. Use hoomans to find your next design idea. We're a library of over 3 million hi-res images, vectors, fonts, and more. All ready to be used, remixed, and shared with others!
+              We provide staffing solutions to businesses and organizations in need of temporary or permanent employees. We would work with you to understand your staffing needs and goals, and we use our extensive network of qualified candidates to match you with the right talent.
             </div>
           </div>
           <div className={serviceBanner}>
@@ -102,7 +102,7 @@ const Services = () => {
               Artificial Intelligence
             </div>
             <div className={bannerDescription}>
-              Stop spending hours combing the internet for design inspiration. Use hoomans to find your next design idea. We're a library of over 3 million hi-res images, vectors, fonts, and more. All ready to be used, remixed, and shared with others!
+              We provide a range of AI services to help businesses and organizations leverage the power of AI to improve their operations. These services include the development of custom AI solutions, integration of AI into existing systems and processes, and training and support to help clients get the most out of their AI investments.
             </div>
           </div>
         </div>

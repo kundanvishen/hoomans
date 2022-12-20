@@ -1,48 +1,45 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import { MailIcon, PhoneIcon } from '../icons'
+import { MailIconDark, PhoneIconDark, PinIconDark } from '../icons'
 import {
-  contactContainer,
-  pageStyles,
-  col,
-  contactCard,
-  subHeading,
+  container,
+  contactInfo,
+  contactImage,
+  heading,
   greenText,
   icon,
 } from './contact.module.css'
 
 const Contact = () => {
   return (
-    <div className={contactContainer}>
-      <div className={pageStyles}>
-        <div className={{...col, ...contactCard}}>
-          <div className={subHeading}>Get in <span className={greenText}>touch</span> with us</div>
-          <div>
-          <span className={icon}><PhoneIcon color="black" /></span>
+    <div className={container}>
+      <div className={contactInfo}>
+        <div className={heading}>
+          Get in <span className={greenText}>touch</span> with us
+        </div>
+        <div>
+          <span className={icon}><PhoneIconDark /></span>
             +971-505424451
         </div>
         <div>
           <Link to="mailto:contact@hoomans.tech">
-            <span className={icon}><MailIcon color="black" /></span>
+            <span className={icon}><MailIconDark /></span>
             contact@hoomans.tech
           </Link>
         </div>
+        <div>
+          <span className={icon}><PinIconDark /></span>
+          Dubai & Delhi
         </div>
-        <div className={col}>
-          <StaticImage
-            alt="group of people"
-            src="../../images/contact_page.png"
-          />
-        </div>
-
-      {/* <div className={pageStyles}>
-        <p style={paragraphStyles}>
-          Reach us at ✍️ <Link to="mailto:team@hoomans.tech">
-            team@hoomans.tech</Link>
-        </p>
-      </div> */}
       </div>
+      <div className={contactImage}>
+        <StaticImage
+          alt="group of people"
+          src="../../images/contact_page.png"
+        />
+      </div>
+
     </div>
   )
 }
