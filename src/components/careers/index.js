@@ -10,7 +10,16 @@ import {
   heading,
   text,
   greenText,
-  title
+  title,
+  openRolesSection,
+  openRolesTitle,
+  openRolesSubtitle,
+  roleContainer,
+  roleTitle,
+  roleType,
+  roleLocation,
+  roleLink,
+  role,
 } from './careers.module.css'
 
 const Careers = () => {
@@ -33,7 +42,7 @@ const Careers = () => {
         <div className={descriptionImage}>
           <StaticImage
             alt="User Research Illustration"
-            src="../../images/user-research.svg"
+            src="../../images/culture.svg"
           />
         </div>
       </div>
@@ -49,7 +58,7 @@ const Careers = () => {
         <div className={descriptionImage}>
           <StaticImage
             alt="User Research Illustration"
-            src="../../images/user-research.svg"
+            src="../../images/benefits.svg"
           />
         </div>
       </div>
@@ -65,8 +74,42 @@ const Careers = () => {
         <div className={descriptionImage}>
           <StaticImage
             alt="User Research Illustration"
-            src="../../images/user-research.svg"
+            src="../../images/hiring-process.svg"
           />
+        </div>
+      </div>
+      <div className={openRolesSection}>
+        <div className={openRolesTitle}>
+          COME JOIN US
+        </div>
+        <div className={openRolesSubtitle}>
+          OPEN ROLES
+        </div>
+        <div className={roleContainer}>
+          <div className={role}>
+            <div className={roleTitle}>Product Designer</div>
+            <div className={roleType}>Permanent</div>
+            <div className={roleLocation}>Remote</div>
+            <div className={roleLink}>
+              <a href="" target="_blank">Apply here</a>
+            </div>
+          </div>
+          <div className={role}>
+            <div className={roleTitle}>Fullstack Engineer</div>
+            <div className={roleType}>Permanent</div>
+            <div className={roleLocation}>Remote</div>
+            <div className={roleLink}>
+              <a href="" target="_blank">Apply here</a>
+            </div>
+          </div>
+          <div className={role}>
+            <div className={roleTitle}>Business Analyst</div>
+            <div className={roleType}>Permanent</div>
+            <div className={roleLocation}>Remote</div>
+            <div className={roleLink}>
+              <a href="" target="_blank">Apply here</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

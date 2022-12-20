@@ -3,15 +3,14 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import ComingSoon from '../components/coming-soon'
 
-
-const AboutPage = () => {
+const ProjectsPage = () => {
   return (
-    <Layout pageTitle="About Us">
+    <Layout pageTitle="Projects">
       <ComingSoon />
     </Layout>
   )
 }
 
-export const Head = () => <Seo title="About Us" />
+export const Head = () => <Seo title="Projects" />
 
-export default AboutPage
+export default ProjectsPage

@@ -1,4 +1,7 @@
 .container {
+  max-width: 1920px;
+  margin: 0 auto;
+
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap-reverse;
@@ -36,6 +39,17 @@
   font-weight: 600;
 }
 
+.contact-link a {
+  background: #2ECC71;
+  border-radius: 46px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1rem 4rem;
+
+}
+
 @media (max-width: 640px) {
   .container {
     font-size: 1rem;
@@ -56,6 +70,12 @@
     font-size: 2rem;
     line-height: 3rem;
     text-align: center;
+  }
+
+  .contact-link a {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem 1.2rem;
   }
 }
 
@@ -79,5 +99,10 @@
     font-size: 3rem;
     line-height: 4rem;
     text-align: center;
+  }
+
+  .contact-link a {
+    font-size: 1.3rem;
+    padding: 1.1rem 2.5rem;
   }
 }

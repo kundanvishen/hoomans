@@ -6,6 +6,7 @@ import {
   container,
   contactInfo,
   contactImage,
+  contactLink,
   heading,
   icon,
 } from './coming-soon.module.css'
@@ -18,7 +19,10 @@ const ComingSoon = () => {
           Coming Soon...
         </div>
         <div>
-        We are currently working hard building this page. Want to be the first one to work with us ?
+          We are currently working hard building this page. Want to be the first one to work with us ?
+        </div>
+        <div className={contactLink}>
+          <Link to="/contact">Get in touch</Link>
         </div>
       </div>
       <div className={contactImage}>
