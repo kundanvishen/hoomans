@@ -70,8 +70,6 @@ const Services = () => {
             Our team is committed to providing comprehensive product development services, from initial concept development to production and launch.
             </div>
           </div>
-        </div>
-        <div className={servicesBannerRow}>
           <div className={serviceBanner}>
             <div className={bannerLogo}>
               <CyberSecurityIcon />
@@ -105,6 +103,9 @@ const Services = () => {
               We provide a range of AI services to help businesses and organizations leverage the power of AI to improve their operations. These services include the development of custom AI solutions, integration of AI into existing systems and processes, and training and support to help clients get the most out of their AI investments.
             </div>
           </div>
+        </div>
+        <div className={servicesBannerRow}>
+
         </div>
       </div>
     </div>

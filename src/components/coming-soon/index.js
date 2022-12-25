@@ -19,7 +19,7 @@ const ComingSoon = () => {
           Coming Soon...
         </div>
         <div>
-          We are currently working hard building this page. Want to be the first one to work with us ?
+          We are currently working hard building this page. Want to be the first one to work with us?
         </div>
         <div className={contactLink}>
           <Link to="/contact">Get in touch</Link>

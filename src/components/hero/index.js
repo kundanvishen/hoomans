@@ -35,7 +35,7 @@ const Hero = () => {
           Digital Experiences
         </div>
         <div className={subText}>
-          From thoughts and inception to delivery and beyond.
+          From thoughts and inception to delivery and beyond..
         </div>
         <div className={contactLink}>
           <Link to="/contact">GET STARTED &nbsp;&nbsp; <RightArrowIcon /></Link>

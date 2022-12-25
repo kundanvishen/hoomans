@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
           <div>
             <span className={icon}><PinIcon /></span>
-            Dubai & Delhi
+            UAE & India
           </div>
         </div>
         <div className={socialLinks}>

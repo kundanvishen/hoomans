@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
         <div>
           <span className={icon}><PinIconDark /></span>
-          Dubai & Delhi
+          Walk in to our office in Dubai or Delhi
         </div>
       </div>
       <div className={contactImage}>

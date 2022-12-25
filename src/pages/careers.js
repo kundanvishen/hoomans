@@ -14,6 +14,6 @@ const CareersPage = () => {
   )
 }
 
-export const Head = () => <Seo title="Join Hoomans" />
+export const Head = () => <Seo title="Join Us" />
 
 export default CareersPage

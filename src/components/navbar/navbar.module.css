@@ -8,6 +8,7 @@ nav {
   max-width: 1920px;
   margin: 0 auto;
   padding: 1.25rem 8rem;
+  background-color: var(--white);
 }
 
 nav ul {
@@ -21,12 +22,6 @@ nav ul {
   gap: 1.5rem 4rem;
 }
 
-nav li:first-child {
-  text-align: center;
-  flex-basis: auto;
-  text-align: left;
-  margin-right: auto;
-}
 
 nav a {
   color: var(--gray);
@@ -50,6 +45,106 @@ nav a {
   color: white;
   background-color: var(--hotmag);
 }
+
+.menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+  display: flex;
+}
+
+.logo {
+  text-align: center;
+  flex-basis: auto;
+  text-align: left;
+  margin-right: auto;
+}
+
+.menu-button {
+  display: none;
+  /* hide the menu button on larger screens */
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 1.7rem;
+  height: 0.2rem;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change-menu .bar1 {
+  transform: translate(0, 0.7rem) rotate(-45deg);
+}
+
+.change-menu .bar2 {
+  opacity: 0;
+}
+
+.change-menu .bar3 {
+  transform: translate(0, -0.45rem) rotate(45deg);
+}
+
+.contact-us-button .nav-link-text {
+  border-radius: 46px;
+  color: var(--green);
+}
+
+@media (max-width: 1024px) {
+  .menubar {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+
+  .menubar ul {
+    /* hide the menubar links on small screens */
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    gap: 3rem;
+    position: relative;
+    transition: height 0s ease, width 0.3s ease;
+
+  }
+
+  .menu-button {
+    display: flex;
+    flex-direction: row-reverse;
+
+    position: fixed;
+    right: 1rem;
+    /* padding: 5px; */
+    /* background-color: red; */
+  }
+
+  .menubar ul.open {
+    flex-direction: column;
+    /* height: auto; */
+    /* padding: 6rem 0 0 0; */
+    height: 100vH;
+    width: 100%;
+  }
+
+  .menubar ul.open .contact-us-button {
+    background: var(--background);
+    width: 100%;
+    color: var(--green);
+    padding: 1.5rem 0rem;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  }
+}
+
 
 @media (min-width: 850px) {}
 
@@ -91,7 +186,7 @@ nav a {
   line-height: 30px;
 }
 
-.header .nav-link-text:hover {
+.nav-link-text:hover {
   color: #b2dfdb;
 }
 
@@ -101,3 +196,7 @@ nav a {
   border-radius: 46px;
   color: #fff;
 } */
+
+.nav-link-text:hover {
+  /* color: #b2dfdb; */
+}
