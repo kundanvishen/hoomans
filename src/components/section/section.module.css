@@ -11,6 +11,10 @@
   /* animation-delay: 1s; */
 }
 
+.visible img {
+  width: 100%;
+}
+
 @keyframes monitorIn {
   from {
     transform: translateY(50px);

@@ -71,6 +71,10 @@
   justify-content: center;
 }
 
+.description-image img {
+  width: 100%;
+}
+
 .open-roles-section {
   margin: 5% 0;
   display: flex;
@@ -165,11 +169,27 @@
     font-size: 1.2rem;
     margin: 10%;
   }
+
+  .description-image img {
+    width: 100%;
+  }
+
+  .description-image {
+    width: 100%;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
 
   .description {
     padding: 3rem 1rem;
+  }
+
+  .description-image {
+    overflow: hidden;
+  }
+
+  .description-image img {
+    width: 100%;
   }
 }

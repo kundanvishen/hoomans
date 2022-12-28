@@ -21,6 +21,8 @@ import {
   servicesHeading
 } from './hero.module.css'
 
+import heroImgUrl from '../../images/icons/hero-bg.svg';
+
 const Hero = () => {
   return (
     <Section>
@@ -45,11 +47,12 @@ const Hero = () => {
         </div>
         <div className={heroBackground}>
           <div className={rectangle}></div>
-          <StaticImage
+          {/* <StaticImage
             alt="Hero background"
             src="../../images/icons/hero-bg.svg"
             className={heroImage}
-          />
+          /> */}
+          <img src={heroImgUrl} alt="Hero Background Image" className={heroImage} />
         </div>
       </div>
     </Section>

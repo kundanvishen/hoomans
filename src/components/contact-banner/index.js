@@ -16,6 +16,8 @@ import {
   greenText,
 } from './contact-banner.module.css'
 
+import messageImgUrl from '../../images/message-card.svg'
+
 const ContactBanner = () => {
   return (
 
@@ -40,9 +42,10 @@ const ContactBanner = () => {
           </div>
         </div>
         <div className={right}>
-          <StaticImage
+          {/* <StaticImage
             src='../../images/message-card.svg'
-          />
+          /> */}
+          <img src={messageImgUrl} alt="Message Card" />
         </div>
       </div>
     </div>

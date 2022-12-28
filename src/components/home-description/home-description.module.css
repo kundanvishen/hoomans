@@ -73,7 +73,11 @@
 .description-image {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.description-image img {
+  width: 150%;
 }
 
 @media (max-width: 640px) {
@@ -105,6 +109,14 @@
   .description-text .text {
     font-size: 1rem;
   }
+
+  .description-image img {
+    width: 100%;
+  }
+
+  .description-image {
+    width: 100%;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
@@ -115,4 +127,7 @@
   .description {
     padding: 0;
   }
-}
+
+  .description-image img {
+    width: 100%;
+  }}

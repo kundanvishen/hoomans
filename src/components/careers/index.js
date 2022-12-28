@@ -23,6 +23,11 @@ import {
 } from './careers.module.css'
 import Section from '../section'
 
+import CultureImgUrl from '../../images/culture.svg'
+import BenefitsImgUrl from '../../images/benefits.svg'
+import HiringImgUrl from '../../images/hiring-process.svg'
+
+
 const Careers = () => {
   return (
     <Section>
@@ -45,10 +50,11 @@ const Careers = () => {
           </div>
           <div className={descriptionImage}>
             <Section>
-              <StaticImage
+              {/* <StaticImage
                 alt="User Research Illustration"
                 src="../../images/culture.svg"
-              />
+              /> */}
+              <img src={CultureImgUrl} alt="Culture Image" />
             </Section>
           </div>
         </div>
@@ -65,10 +71,11 @@ const Careers = () => {
           </div>
           <div className={descriptionImage}>
             <Section>
-              <StaticImage
+              {/* <StaticImage
                 alt="User Research Illustration"
                 src="../../images/benefits.svg"
-                />
+                /> */}
+              <img src={BenefitsImgUrl} alt="Working Benefits" />
             </Section>
           </div>
         </div>
@@ -85,10 +92,11 @@ const Careers = () => {
           </div>
           <div className={descriptionImage}>
             <Section>
-              <StaticImage
+              {/* <StaticImage
                 alt="User Research Illustration"
                 src="../../images/hiring-process.svg"
-                />
+                /> */}
+              <img src={HiringImgUrl} alt="Hiring Process" />
             </Section>
           </div>
         </div>

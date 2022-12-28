@@ -13,6 +13,12 @@ import {
   greenText,
 } from './home-description.module.css'
 
+import userResearchImageUrl from '../../images/user-research.svg';
+import strategyImageUrl from '../../images/strategy.svg';
+import delightfulImgUrl from '../../images/delightful-products.svg';
+import scalingImgUrl from '../../images/scaling.svg';
+import talentImgUrl from '../../images/talent-scout.svg';
+
 const HomeDescription = () => {
   return (
     <Section>
@@ -31,12 +37,15 @@ const HomeDescription = () => {
                 </Section>
               </div>
           </div>
-          <Section className={descriptionImage}>
-            <StaticImage
-              alt="User Research Illustration"
-              src="../../images/user-research.svg"
-            />
-          </Section>
+          <div className={descriptionImage}>
+            <Section className={descriptionImage}>
+              {/* <StaticImage
+                alt="User Research Illustration"
+                src="../../images/user-research.svg"
+              /> */}
+              <img src={userResearchImageUrl} alt="User Research" />
+            </Section>
+          </div>
         </div>
         <div className={description}>
           <div className={descriptionText}>
@@ -50,10 +59,11 @@ const HomeDescription = () => {
           </div>
           <div className={descriptionImage}>
             <Section>
-              <StaticImage
+              {/* <StaticImage
                 alt="User Research Illustration"
                 src="../../images/strategy.svg"
-                />
+                /> */}
+              <img src={strategyImageUrl} alt="Clear Strategy" />
             </Section>
           </div>
         </div>
@@ -69,10 +79,11 @@ const HomeDescription = () => {
           </div>
           <div className={descriptionImage}>
             <Section>
-              <StaticImage
+              {/* <StaticImage
                 alt="User Research Illustration"
-                src="../../images/delightful-products.svg"
-                />
+                src={delightfulImgUrl}
+                /> */}
+                <img src={delightfulImgUrl} alt="Delightful Products" />
             </Section>
           </div>
         </div>
@@ -87,10 +98,11 @@ const HomeDescription = () => {
           </div>
           <div className={descriptionImage}>
             <Section>
-              <StaticImage
+              {/* <StaticImage
                 alt="User Research Illustration"
                 src="../../images/scaling.svg"
-                />
+                /> */}
+              <img src={scalingImgUrl} alt="Scale & Beyond" />
             </Section>
           </div>
         </div>
@@ -105,10 +117,11 @@ const HomeDescription = () => {
           </div>
           <div className={descriptionImage}>
             <Section>
-              <StaticImage
+              {/* <StaticImage
                 alt="User Research Illustration"
                 src="../../images/talent-scout.svg"
-                />
+                /> */}
+              <img src={talentImgUrl} alt="Talent scout" />
             </Section>
           </div>
         </div>
