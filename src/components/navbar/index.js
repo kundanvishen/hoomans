@@ -36,7 +36,7 @@ const Navbar = () => {
       console.log(currentScrollPos);
 
       // if (scrollDirection === "down" && currentScrollPos > 350 && currentScrollPos < document.documentElement.scrollHeight - window.innerHeight-300) {
-      if (scrollDirection === "down" && currentScrollPos >350) {
+      if (scrollDirection === "down" && currentScrollPos > 350) {
         setIsSticky(false);
       } else {
         setIsSticky(true);

@@ -7,7 +7,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding: 5rem 2rem;
+  padding: 5rem 8rem;
   align-items: flex-start;
 
 
@@ -31,10 +31,16 @@
   line-height: 22px;
 }
 
-.left {}
+.left {
+  justify-content: space-between;
+}
+
+.right {
+  gap: 1rem;
+}
 
 .logo-container {
-  flex-basis: 70%;
+  /* flex-basis: 70%; */
   display: flex;
   align-content: center;
   justify-content: space-around;
@@ -94,8 +100,12 @@
 }
 
 @media (max-width: 1200px) and (min-width: 640px) {
+  .footer-container {
+    padding: 5rem 2.5rem;
+  }
+
   .right {
-    flex-basis: 45%;
+    flex-basis: 40%;
   }
 
   .left {

@@ -32,6 +32,31 @@ body {
   font-size: var(--font-size);
   min-height: 100%;
   /* display: flex; */
+
+  /* animation: fadeInAnimation ease 2s; */
+  /* animation: slideUp .8s ease forwards .5s; */
+  /* animation-iteration-count: 1; */
+  /* animation-fill-mode: forwards; */
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 h1,
@@ -54,6 +79,6 @@ main {
 }
 
 .container {
-  /* padding-top: 10rem; */
+  padding-top: 2rem;
   /* border: 1px solid red; */
 }
