@@ -114,7 +114,7 @@ const Careers = () => {
                 <div className={roleType}>Permanent</div>
                 <div className={roleLocation}>Remote</div>
                 <div className={roleLink}>
-                  <a href="" target="_blank">Apply here</a>
+                  <a href="mailto:careers@hoomans.tech?subject=Application for Product Designer" target="_blank">Apply here</a>
                 </div>
               </div>
               <div className={role}>
@@ -122,7 +122,7 @@ const Careers = () => {
                 <div className={roleType}>Permanent</div>
                 <div className={roleLocation}>Remote</div>
                 <div className={roleLink}>
-                  <a href="" target="_blank">Apply here</a>
+                  <a href="mailto:careers@hoomans.tech?subject=Application for Fullstack Engineer" target="_blank">Apply here</a>
                 </div>
               </div>
               <div className={role}>
@@ -130,7 +130,7 @@ const Careers = () => {
                 <div className={roleType}>Permanent</div>
                 <div className={roleLocation}>Remote</div>
                 <div className={roleLink}>
-                  <a href="" target="_blank">Apply here</a>
+                  <a href="mailto:careers@hoomans.tech?subject=Application for Business Analyst" target="_blank">Apply here</a>
                 </div>
               </div>
             </div>

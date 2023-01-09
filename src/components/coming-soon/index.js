@@ -9,8 +9,11 @@ import {
   contactImage,
   contactLink,
   heading,
+  subText,
   icon,
 } from './coming-soon.module.css'
+
+import ComingSoonImg from '../../images/coming-soon.svg'
 
 const ComingSoon = () => {
   return (
@@ -20,7 +23,7 @@ const ComingSoon = () => {
           <div className={heading}>
             Coming Soon...
           </div>
-          <div>
+          <div className={subText}>
             We are currently working hard building this page. Want to be the first one to work with us?
           </div>
           <div className={contactLink}>
@@ -28,10 +31,11 @@ const ComingSoon = () => {
           </div>
         </div>
         <div className={contactImage}>
-          <StaticImage
+          {/* <StaticImage
             alt="group of people"
             src="../../images/coming-soon.svg"
-          />
+          /> */}
+          <img src={ComingSoonImg} alt="Coming Soon" />
         </div>
       </div>
     </Section>

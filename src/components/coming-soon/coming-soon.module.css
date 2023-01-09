@@ -50,6 +50,10 @@
 
 }
 
+.sub-text {
+  line-height: 150%;
+}
+
 @media (max-width: 640px) {
   .container {
     font-size: 1rem;

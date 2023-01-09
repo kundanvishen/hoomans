@@ -80,7 +80,7 @@ const Footer = () => {
             <Link to="/">
               <span className={icon}><TwitterIcon /></span>
             </Link>
-            <Link to="/">
+            <Link target="_blank" to="https://linkedin.com/company/hoomans-tech/about/">
               <span className={icon}><LinkedinIcon /></span>
             </Link>
           </div>

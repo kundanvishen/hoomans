@@ -11,6 +11,8 @@ import {
   icon,
 } from './contact.module.css'
 
+import ContactsPageImg from  '../../images/contact_page.png'
+
 const Contact = () => {
   return (
     <div className={container}>
@@ -34,10 +36,11 @@ const Contact = () => {
         </div>
       </div>
       <div className={contactImage}>
-        <StaticImage
+        {/* <StaticImage
           alt="group of people"
           src="../../images/contact_page.png"
-        />
+        /> */}
+        <img src={ContactsPageImg} alt="Group of Hoomans" />
       </div>
 
     </div>

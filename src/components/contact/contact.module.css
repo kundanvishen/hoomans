@@ -32,6 +32,10 @@
   padding: 5rem;
 }
 
+.contact-image>img {
+  width: 100%;
+}
+
 .green-text {
   color: var(--green);
 }

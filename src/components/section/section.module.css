@@ -7,7 +7,7 @@
 .visible {
   /* opacity: 1; */
   /* transform: translateY(0); */
-  animation: monitorIn 1.5s ease-in-out forwards;
+  animation: monitorIn 0.7s ease-in-out forwards;
   /* animation-delay: 1s; */
 }
 
